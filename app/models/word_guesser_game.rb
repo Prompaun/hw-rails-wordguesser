@@ -3,6 +3,8 @@ class WordGuesserGame
   attr_accessor :word, :guesses, :wrong_guesses
 
   def initialize(word)
+    puts word
+    puts 'ppppppppppppppppppppppppp'
     @word = word
     @guesses = ''
     @wrong_guesses = ''
